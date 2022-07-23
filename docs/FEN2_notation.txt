@@ -1,0 +1,29 @@
+r - rook
+m - monkey
+e - elephant
+f - fishy
+k - king
+q - queen
+v - fishy queen
+b - bear
+
+1. Piece location:
+    number of empty spaces
+    pieces with letter (capital: White, lowercase: Blue)
+    "/" new rank
+    Z5, Z4, I5, I4 exist!
+    starts on 8th Rank
+
+2. Player to move [w: white, b: blue]
+
+3. Bear spawnable [1: yes, 0: no]
+
+4. King has banana [w: white, b: blue, -: none, +: both]
+
+5. Rook can take [w: white, b: blue, -: none, +: both]
+
+6. Turn number [n]
+
+
+Example, starting position:
+    rmfqkfmr/ffeffeff/8/10/10/8/FFEFFEFF/RMFQKFMR w 1 + - 1

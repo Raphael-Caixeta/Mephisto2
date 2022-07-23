@@ -1,0 +1,39 @@
+Rook (the Bird):  	A1/H1
+    Can fly to any position on Board
+    Can take one space in main directions (not clear where it lands)
+    Can only take if an allied piece has been taken the move before
+
+Monkey:			B1/G1
+    Can move one space in any direction
+    Can jump over adjacent pieces (Lands in space opposite to ajadcent piece)
+    Can jump multiple times per turn
+    Cannot move after jumping
+    Cannot move or jump after taking
+    Takes on space which it lands on
+
+Elephant:		C2/F2
+    Can move exaclty two spaces diagonally
+    Takes on space which it lands on
+
+Fishy:			A2/B2/C1/D2/E2/F1/G2/H2
+    Can move one space in any direction, as long as its rank doesn't decreace (cannot move backwards)
+    Can take diagonally foreward
+
+*Fishy Queen:
+    Is promoted from a fishy which reaches the enimy's back rank
+    Can move in any direction for any distance
+
+King:			E1
+    Same moveset as Chess
+    Moves to Jail upon getting captured (Jail is on the right =>"I4/I5")
+    Can be saved by monkey once:
+        Monkey jumps into jail and back out (in a main direction), drops king on landing spot and has to jump again
+
+Queen:			D1
+    Same moveset as Chess
+    Moves to Jail upon getting captured
+
+Bear (independant):
+    Players can spawn bear on D4/D5/E4/E5 once
+    Moves one space in any direction
+    Does not take
